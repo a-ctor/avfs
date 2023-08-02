@@ -3,7 +3,7 @@
 using System.Diagnostics;
 
 /// <summary>
-/// Represents a path in a virtual file system (VFS).
+/// Represents a path in an <see cref="IFileSystem"/>.
 /// </summary>
 /// <remarks>
 /// VFS paths have a few restrictions:
