@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avfs.Abstractions", "Avfs.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avfs.UnitTests", "Avfs.UnitTests\Avfs.UnitTests.csproj", "{3616C51A-B3EA-48A5-94E1-8D185CB2B513}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avfs.IntegrationTests", "Avfs.IntegrationTests\Avfs.IntegrationTests.csproj", "{CE0B2214-6394-4233-BDA2-7C5D32C5DAFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{3616C51A-B3EA-48A5-94E1-8D185CB2B513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3616C51A-B3EA-48A5-94E1-8D185CB2B513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3616C51A-B3EA-48A5-94E1-8D185CB2B513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0B2214-6394-4233-BDA2-7C5D32C5DAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0B2214-6394-4233-BDA2-7C5D32C5DAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0B2214-6394-4233-BDA2-7C5D32C5DAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0B2214-6394-4233-BDA2-7C5D32C5DAFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
