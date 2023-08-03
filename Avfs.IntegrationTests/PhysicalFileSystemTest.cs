@@ -2,18 +2,19 @@
 
 public class PhysicalFileSystemTest : IDisposable
 {
-  private readonly DirectoryInfo _physicalBasePath;
+  private readonly string _physicalBasePath;
   private readonly PhysicalFileSystem _fileSystem;
 
   public PhysicalFileSystemTest()
   {
-    _physicalBasePath = Directory.CreateTempSubdirectory();
-    _fileSystem = new PhysicalFileSystem(_physicalBasePath.FullName);
+    _physicalBasePath = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString());
+    Directory.CreateDirectory(_physicalBasePath);
+    _fileSystem = new PhysicalFileSystem(_physicalBasePath);
   }
 
   public void Dispose()
   {
-    _physicalBasePath.Delete(true);
+    Directory.Delete(_physicalBasePath, true);
   }
 
   [Fact]
@@ -270,7 +271,7 @@ public class PhysicalFileSystemTest : IDisposable
   private string CreatePhysicalPath(params string[] parts)
   {
     var args = new string[parts.Length + 1];
-    args[0] = _physicalBasePath.FullName;
+    args[0] = _physicalBasePath;
     Array.Copy(parts, 0, args, 1, parts.Length);
 
     return Path.Combine(args);
