@@ -11,6 +11,7 @@
     <PackageLicenseExpression>ISC</PackageLicenseExpression>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageIcon>Icon.png</PackageIcon> 
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>vfs;filesystem;virtual</PackageTags>
   </PropertyGroup>
@@ -21,6 +22,7 @@
 
   <ItemGroup>
     <Content Include="..\README.md" PackagePath="README.md" Visible="False"/>
+    <Content Include="..\Avfs\Icon.png" PackagePath="Icon.png" Visible="False"/>
   </ItemGroup>
   
 </Project>

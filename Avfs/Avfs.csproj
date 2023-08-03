@@ -15,5 +15,9 @@
   <ItemGroup>
     <InternalsVisibleTo Include="Avfs.UnitTests" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Icon.svg" />
+  </ItemGroup>
 
 </Project>
