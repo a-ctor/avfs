@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Avfs.Abstractions\Avfs.Abstractions.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include="Avfs.UnitTests" />
+  </ItemGroup>
+
 </Project>
