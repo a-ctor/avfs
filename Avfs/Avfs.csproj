@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <Import Project="..\build\Package.props" />
+ 
   <ItemGroup>
     <ProjectReference Include="..\Avfs.Abstractions\Avfs.Abstractions.csproj" />
   </ItemGroup>
