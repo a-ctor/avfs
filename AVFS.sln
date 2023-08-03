@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avfs.UnitTests", "Avfs.Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avfs.IntegrationTests", "Avfs.IntegrationTests\Avfs.IntegrationTests.csproj", "{CE0B2214-6394-4233-BDA2-7C5D32C5DAFE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{599DD36A-DF84-4DBD-AE39-1934B27808CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{599DD36A-DF84-4DBD-AE39-1934B27808CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599DD36A-DF84-4DBD-AE39-1934B27808CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6754BE7-71C4-4410-85E6-485ABF4EB8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6754BE7-71C4-4410-85E6-485ABF4EB8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6754BE7-71C4-4410-85E6-485ABF4EB8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
